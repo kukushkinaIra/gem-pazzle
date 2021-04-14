@@ -1,0 +1,33 @@
+*{
+    margin: auto;
+}
+
+.field{
+    height: 400px;
+    width: 400px;
+    border: solid 0.5vw rgb(24, 100, 114);
+    border-radius: 1vw;
+    position: relative;
+    background-color: rgb(192, 192, 243);
+}
+
+.cell{
+    height: 100px;
+    width: 100px;
+    border: solid 0.2vw black;
+    border-radius: 0.3vw;
+    position: absolute;
+    box-sizing: border-box;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    cursor: pointer;
+    background-color: rgb(219, 219, 245);
+    color: rgb(146, 85, 4);
+}
+
+.txt{
+    font-size: 100px;
+}
